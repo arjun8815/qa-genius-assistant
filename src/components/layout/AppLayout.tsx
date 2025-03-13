@@ -25,7 +25,7 @@ export default function AppLayout({
   }, [location.pathname]);
 
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex h-screen overflow-hidden bg-qa-beige-light/30">
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
         <Header title={title} subtitle={subtitle} showActions={showActions} />

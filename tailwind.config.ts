@@ -65,13 +65,18 @@ export default {
 				},
 				qa: {
 					purple: {
-						light: '#9b87f5',
-						DEFAULT: '#7E69AB',
-						dark: '#6E59A5'
+						light: '#D9CFC1',
+						DEFAULT: '#C9B99B',
+						dark: '#A89878'
 					},
-					blue: '#D3E4FD',
+					blue: '#F1F0FB',
 					green: '#F2FCE2',
 					orange: '#FEC6A1',
+					beige: {
+						light: '#F5F1EA',
+						DEFAULT: '#E8E2D7',
+						dark: '#D9CFC1'
+					},
 					gray: {
 						light: '#F6F7F9',
 						DEFAULT: '#8E9196',
