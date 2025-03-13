@@ -63,6 +63,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
+				"crystal-blue": {
+					light: '#E6F7FF',
+					DEFAULT: '#0EA5E9',
+					dark: '#0369A1'
+				},
 				qa: {
 					purple: {
 						light: '#D9CFC1',
