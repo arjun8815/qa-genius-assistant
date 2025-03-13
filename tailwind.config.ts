@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -70,11 +69,11 @@ export default {
 				},
 				qa: {
 					purple: {
-						light: '#D9CFC1',
-						DEFAULT: '#C9B99B',
-						dark: '#A89878'
+						light: '#E5DEFF',
+						DEFAULT: '#8B5CF6',
+						dark: '#6D28D9'
 					},
-					blue: '#F1F0FB',
+					blue: '#D3E4FD',
 					green: '#F2FCE2',
 					orange: '#FEC6A1',
 					beige: {
@@ -86,6 +85,16 @@ export default {
 						light: '#F6F7F9',
 						DEFAULT: '#8E9196',
 						dark: '#1A1F2C'
+					},
+					icon: {
+						stats: '#0EA5E9',
+						testcase: '#8B5CF6',
+						bug: '#F97316',
+						scenario: '#0EA5E9',
+						aisuggestion: '#D946EF',
+						upload: '#0EA5E9',
+						edgecase: '#0EA5E9',
+						regression: '#10B981'
 					}
 				}
 			},

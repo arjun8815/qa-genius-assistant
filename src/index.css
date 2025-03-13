@@ -105,7 +105,7 @@
   }
   
   .qa-badge-purple {
-    @apply qa-badge bg-crystal-blue-light text-crystal-blue-dark;
+    @apply qa-badge bg-qa-purple-light text-qa-purple;
   }
   
   .qa-badge-green {

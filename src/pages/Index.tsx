@@ -23,25 +23,25 @@ const Dashboard = () => {
           title="Total Test Cases"
           value="128"
           description="+12 this week"
-          icon={<TestTube className="h-4 w-4" />}
+          icon={<TestTube className="h-4 w-4 text-qa-icon-testcase" />}
         />
         <StatCard
           title="Open Bug Reports"
           value="24"
           description="-3 this week"
-          icon={<Bug className="h-4 w-4" />}
+          icon={<Bug className="h-4 w-4 text-qa-icon-bug" />}
         />
         <StatCard
           title="Test Scenarios"
           value="56"
           description="+8 this week"
-          icon={<FileText className="h-4 w-4" />}
+          icon={<FileText className="h-4 w-4 text-qa-icon-scenario" />}
         />
         <StatCard
           title="AI Suggestions"
           value="93"
           description="+15 this week"
-          icon={<Zap className="h-4 w-4" />}
+          icon={<Zap className="h-4 w-4 text-qa-icon-aisuggestion" />}
         />
       </div>
       

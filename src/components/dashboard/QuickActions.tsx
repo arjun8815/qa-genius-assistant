@@ -23,7 +23,7 @@ export function QuickActions() {
             className="h-auto justify-start gap-2 py-3"
             onClick={() => window.location.href = "/chat?action=generate-test-cases"}
           >
-            <TestTube className="h-4 w-4 text-qa-purple" />
+            <TestTube className="h-4 w-4 text-qa-icon-testcase" />
             <div className="flex flex-col items-start">
               <span>Generate Test Cases</span>
               <span className="text-xs text-muted-foreground">
@@ -37,7 +37,7 @@ export function QuickActions() {
             className="h-auto justify-start gap-2 py-3"
             onClick={() => window.location.href = "/chat?action=suggest-edge-cases"}
           >
-            <FileText className="h-4 w-4 text-blue-600" />
+            <FileText className="h-4 w-4 text-qa-icon-edgecase" />
             <div className="flex flex-col items-start">
               <span>Suggest Edge Cases</span>
               <span className="text-xs text-muted-foreground">
@@ -51,7 +51,7 @@ export function QuickActions() {
             className="h-auto justify-start gap-2 py-3"
             onClick={() => window.location.href = "/chat?action=create-bug-report"}
           >
-            <Bug className="h-4 w-4 text-orange-600" />
+            <Bug className="h-4 w-4 text-qa-icon-bug" />
             <div className="flex flex-col items-start">
               <span>Frame a Bug Report</span>
               <span className="text-xs text-muted-foreground">
@@ -65,7 +65,7 @@ export function QuickActions() {
             className="h-auto justify-start gap-2 py-3"
             onClick={() => window.location.href = "/chat?action=regression-scenarios"}
           >
-            <MessageSquarePlus className="h-4 w-4 text-green-600" />
+            <MessageSquarePlus className="h-4 w-4 text-qa-icon-regression" />
             <div className="flex flex-col items-start">
               <span>List Regression Scenarios</span>
               <span className="text-xs text-muted-foreground">
@@ -79,7 +79,7 @@ export function QuickActions() {
             className="h-auto justify-start gap-2 py-3 col-span-1 sm:col-span-2"
             onClick={() => window.location.href = "/data-sources/upload"}
           >
-            <Upload className="h-4 w-4" />
+            <Upload className="h-4 w-4 text-qa-icon-upload" />
             <div className="flex flex-col items-start">
               <span>Upload Requirements</span>
               <span className="text-xs text-muted-foreground">

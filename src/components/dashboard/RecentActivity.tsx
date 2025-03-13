@@ -73,9 +73,9 @@ export function RecentActivity() {
             >
               <div className={cn(
                 "flex h-9 w-9 items-center justify-center rounded-full",
-                activity.type === "test-case" ? "bg-qa-purple-light/10 text-qa-purple" :
-                activity.type === "bug-report" ? "bg-qa-orange/20 text-orange-600" :
-                "bg-qa-blue text-blue-600"
+                activity.type === "test-case" ? "bg-qa-purple-light text-qa-icon-testcase" :
+                activity.type === "bug-report" ? "bg-qa-orange/20 text-qa-icon-bug" :
+                "bg-qa-blue text-qa-icon-scenario"
               )}>
                 {getActivityIcon(activity.type)}
               </div>

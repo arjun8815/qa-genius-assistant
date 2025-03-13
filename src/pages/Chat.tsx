@@ -68,7 +68,7 @@ const Chat = () => {
                 className="w-full justify-start gap-2"
                 onClick={() => window.location.href = "/chat?action=generate-test-cases"}
               >
-                <TestTube className="h-4 w-4 text-qa-purple" />
+                <TestTube className="h-4 w-4 text-qa-icon-testcase" />
                 Generate Test Cases
               </Button>
               
@@ -77,7 +77,7 @@ const Chat = () => {
                 className="w-full justify-start gap-2"
                 onClick={() => window.location.href = "/chat?action=suggest-edge-cases"}
               >
-                <FileText className="h-4 w-4 text-blue-600" />
+                <FileText className="h-4 w-4 text-qa-icon-edgecase" />
                 Suggest Edge Cases
               </Button>
               
@@ -86,7 +86,7 @@ const Chat = () => {
                 className="w-full justify-start gap-2"
                 onClick={() => window.location.href = "/chat?action=create-bug-report"}
               >
-                <Bug className="h-4 w-4 text-orange-600" />
+                <Bug className="h-4 w-4 text-qa-icon-bug" />
                 Frame a Bug Report
               </Button>
               
@@ -95,7 +95,7 @@ const Chat = () => {
                 className="w-full justify-start gap-2"
                 onClick={() => window.location.href = "/chat?action=regression-scenarios"}
               >
-                <MessageSquarePlus className="h-4 w-4 text-green-600" />
+                <MessageSquarePlus className="h-4 w-4 text-qa-icon-regression" />
                 List Regression Scenarios
               </Button>
             </CardContent>
