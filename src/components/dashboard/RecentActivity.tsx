@@ -33,13 +33,18 @@ const recentActivities = [
 ];
 
 const getActivityIcon = (type: string) => {
+  const iconProps = {
+    className: "h-4 w-4",
+    strokeWidth: 2,
+  };
+  
   switch (type) {
     case "test-case":
-      return <TestTube className="h-4 w-4" />;
+      return <TestTube {...iconProps} className="h-4 w-4 text-qa-icon-testcase" />;
     case "bug-report":
-      return <Bug className="h-4 w-4" />;
+      return <Bug {...iconProps} className="h-4 w-4 text-qa-icon-bug" />;
     case "scenario":
-      return <FileText className="h-4 w-4" />;
+      return <FileText {...iconProps} className="h-4 w-4 text-qa-icon-scenario" />;
     default:
       return null;
   }
@@ -72,10 +77,10 @@ export function RecentActivity() {
               className="flex items-center space-x-3 rounded-md border p-3 transition-all hover:bg-accent"
             >
               <div className={cn(
-                "flex h-9 w-9 items-center justify-center rounded-full",
-                activity.type === "test-case" ? "bg-qa-purple-light text-qa-icon-testcase" :
-                activity.type === "bug-report" ? "bg-qa-orange/20 text-qa-icon-bug" :
-                "bg-qa-blue text-qa-icon-scenario"
+                "flex h-9 w-9 items-center justify-center rounded-full border",
+                activity.type === "test-case" ? "border-qa-icon-testcase" :
+                activity.type === "bug-report" ? "border-qa-icon-bug" :
+                "border-qa-icon-scenario"
               )}>
                 {getActivityIcon(activity.type)}
               </div>
